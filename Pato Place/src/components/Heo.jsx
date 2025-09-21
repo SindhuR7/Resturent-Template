@@ -1,10 +1,9 @@
 import React from 'react'
-import '../components/Heo.css'
-
+import backgroundImage from '../assets/master-slides-02.jpg'
 const Heo = () => {
   return (
     <>
-    <section className='hero'>
+    <section className='h-lvh absolute bg-[url("../assets/master-slides-02.jpg")] '>
         <div className="title">Welcome to</div>
         <div className="heading">Pato Place</div>
         <div className="btn">
