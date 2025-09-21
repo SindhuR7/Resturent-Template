@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/Menu.css'
+
 import pics1 from '../assets/our-menu-01.jpg.webp'
 import pics2 from '../assets/our-menu-05.jpg.webp'
 import pics3 from '../assets/our-menu-08.jpg.webp'
@@ -10,7 +10,7 @@ import pics6 from '../assets/our-menu-16.jpg.webp'
 const Menu = () => {
   return (
     <>
-    <div className="menu">
+    <div className="bg-[#2125292f] flex flex-col">
         <div className="title dis">Discover</div>
         <div className="heading ti our">OUR MENU</div>
         <div className="lds">
