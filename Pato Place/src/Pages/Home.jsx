@@ -5,6 +5,8 @@ import Second from '../components/Second'
 import Third from '../components/Third'
 import Rest from '../components/Rest'
 import Menu from '../components/Menu'
+import Event from '../components/Event'
+import Reservation from '../components/Reservation'
 
 const Home = () => {
   return (
@@ -14,7 +16,9 @@ const Home = () => {
     <Second/>
     <Third/>
     <Rest/>
-    <Menu/>
+    <Menu/> 
+    <Event/>
+    <Reservation/>
     </>
   )
 }
