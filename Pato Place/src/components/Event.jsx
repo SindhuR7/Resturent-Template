@@ -3,6 +3,7 @@ import image from '../assets/event-06.jpg'
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import CounterClock from './CounterClock';
 
 
 const Event = () => {
@@ -19,7 +20,7 @@ const Event = () => {
             <div className='flex flex-col justify-center items-center px-1 py-2 md:px-10'>
                 <h4 className='mt-3 mb-3 font-["Poppins",sans-serif] text-lg font-medium text-black cursor-pointer uppercase tracking-wider md:text-2xl'>WINES DURING SPECIAL NIGHTS</h4>
                 <div className="font-['Montserrat',sans-serif] text-[#666666] text-sm w-sm text-center md:w-lg md:text-lg">Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.</div>
-                <div className=''>TIMER</div>
+                <CounterClock/>
                 <div className="flex justify-center items-center font-['Montserrat',sans-serif] text-[#666666] cursor-pointer text-center text-lg mt-8 uppercase">view details<MdOutlineArrowRightAlt /></div>
             </div>
         </div>
