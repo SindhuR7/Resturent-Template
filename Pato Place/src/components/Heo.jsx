@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 
 const Heo = () => {
+ 
   return (
     <>
     <section className=' bg-[url("./assets/master-slides-02.jpg")] h-lvh w-full bg-cover bg-center bg-no-repeat absolute top-0 left-0 -z-10 group '>
         <div className="flex flex-col items-center justify-center text-white h-full w-full z-10 ">
-          <div className="font-['Courgette',cursive] text-6xl italic md:text-7xl">Welcome to</div>
+          <div className='font-["Courgette",cursive] text-6xl italic md:text-7xl transition-all duration-500 animate-[translate-3d rotate]' >Welcome to</div>
         <div className="font-['Poppins', sans-serif] text-7xl text-center font-bold tracking-[0.75rem] uppercase mt-5 md:text-8xl">Pato Place</div>
         <div className="btn">
             <button className='bg-white text-[#ec1d25] text-lg px-7 py-2 mt-6 rounded-2xl cursor-pointer hover:bg-[#ec1d25] hover:text-white transition-colors duration-400 animate-pulse ' >Look Menu</button>
