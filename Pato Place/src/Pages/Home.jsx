@@ -26,7 +26,7 @@ const Home = () => {
     <Event/>
     <Reservation/>
     <Review/>
-    <Discover/>
+    <Discover/> 
     <News/>
     <Sign/>
     <Contact/>
